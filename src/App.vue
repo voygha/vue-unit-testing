@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- Agregamos el componente -->
+  <AppHeader></AppHeader>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+//importamos el componente AppHeader
+import AppHeader  from "./components/AppHeader.vue"
 export default {
+  
   name: 'App',
+  //Agregamos el componente a App
   components: {
-    HelloWorld
+    AppHeader
   }
 }
 </script>
