@@ -14,7 +14,7 @@ export default {
             type: Boolean,
             //por default no se muestra el boton
             //si quieres ver el boton cambia las props a true
-            default: true,
+            default: false,
         },
     },
     data() {

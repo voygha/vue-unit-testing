@@ -147,10 +147,10 @@ export default {
 - Crea un nuevo test llamado AppHeader.spec.js
 - Comienza a configurar
 
-### Importacion del modulo vue test-utils
+### Importacion de mount del modulo vue test-utils
 
 ```javascript
-import AppHeader from "@/components/AppHeader";
+import { mount } from "@vue/test-utils";
 ```
 
 ### Importacion del componente a examinar
